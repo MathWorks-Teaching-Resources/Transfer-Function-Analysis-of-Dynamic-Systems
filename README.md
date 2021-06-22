@@ -13,7 +13,7 @@ This curriculum module contains interactive [live scripts](https://www.mathworks
 **`Part0_ConceptReview.mlx, Part0_ConceptReviewSoln.mlx`**  
 An interactive lesson that reviews Laplace transforms.
 
-<img src="pendulum.gif" width="500">
+<img src="https://user-images.githubusercontent.com/81383420/122928267-b055b100-d337-11eb-962d-80c290c1e6a6.gif" width="500">
 
 **Learning Goals:**
 - Compute Laplace transforms by hand and using symbolic math
@@ -25,7 +25,7 @@ An interactive lesson that reviews Laplace transforms.
 **`Part1_TransferFunctionBasics.mlx, Part1_TransferFunctionBasicsSoln.mlx`**  
 An interactive lesson that teaches how to derive transfer functions and compute time responses analytically and in MATLAB.
 
-<img src="SystemBoxStep.png" width="500">
+<img src="https://user-images.githubusercontent.com/81383420/122928938-573a4d00-d338-11eb-80ef-2c979eb17236.png" width="550">
 
 **Learning Goals:**
 - Derive transfer functions by hand
@@ -38,7 +38,7 @@ An interactive lesson that teaches how to derive transfer functions and compute 
 **`Part2_PoleZeroAnalysis.mlx, Part2_PoleZeroAnalysisSoln.mlx`**  
 A live script lesson that teaches pole-zero analysis.
 
-<img src="PolePlane.png" width="500">
+<img src="https://user-images.githubusercontent.com/81383420/122929255-bb5d1100-d338-11eb-8d05-7aa7b6666f71.png" width="550">
 
 **Learning Goals:**
 - Describe how the transfer function of a DC motor is derived
@@ -52,8 +52,8 @@ A live script lesson that teaches pole-zero analysis.
 **`Part3_FrequencyDomainAnalysis.mlx, Part3_FrequencyDomainAnalysisSoln.mlx`**  
 An interactive lesson that teaches frequency domain analysis using transfer functions.
 
-<img src="bodeplot.gif" width="500">
-
+<img src="https://user-images.githubusercontent.com/81383420/122929840-65d53400-d339-11eb-8a8a-2c1522bbfcf0.gif" width="550">
+  
 **Learning Goals:**
 - Explain how a Bode plot is generated
 - Use MATLAB to numerically calculate the frequency response of a transfer function
