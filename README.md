@@ -1,4 +1,4 @@
-# Transfer Function Analysis of Dynamic Systems [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/####)
+# Transfer Function Analysis of Dynamic Systems [![View Transfer Function Analysis of Dynamic Systems on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/94635-transfer-function-analysis-of-dynamic-systems)
 **Curriculum Module**  
 _Created with R2020b. Compatible with R2020b and later releases._  
 
