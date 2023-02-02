@@ -8,8 +8,8 @@ This curriculum module contains interactive [live scripts](https://www.mathworks
 The instructions inside the live scripts will guide you through the exercises and activities. Get started with each live script by running it one section at a time. To stop running the script or a section midway (for example, when an animation is in progress), use the Stop button in the RUN section of the Live Editor tab in the MATLAB Toolstrip.
 
 ## Suggested Prework ##
-[MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html) – a free two-hour introductory tutorial that teaches the essentials of MATLAB.<br>
-[Introduction to Symbolic Math with MATLAB](https://www.mathworks.com/learn/tutorials/introduction-to-symbolic-math-with-matlab.html) – a two-hour self-paced introductory course that teaches the basics of symbolic mathematics in MATLAB. Note that this course is only available to users with access to the Online Training Suite.
+[MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) – a free two-hour introductory tutorial that teaches the essentials of MATLAB.<br>
+[Introduction to Symbolic Math with MATLAB](https://matlabacademy.mathworks.com/details/introduction-to-symbolic-math-with-matlab/symbolic) – a two-hour self-paced introductory course that teaches the basics of symbolic mathematics in MATLAB. Note that this course is only available to users with access to the Online Training Suite.
 
 ## Details ##
 **`Part0_ConceptReview.mlx, Part0_ConceptReviewSoln.mlx`**  
