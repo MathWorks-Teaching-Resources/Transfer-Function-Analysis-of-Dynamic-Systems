@@ -87,7 +87,7 @@ The license for this module is available in the [LICENSE.md](https://github.com/
 # Related Courseware Modules
 <a name="H_868F5748"></a>
 ## [Fourier Analysis](https://www.mathworks.com/matlabcentral/fileexchange/106725-fourier-analysis?s_tid=srchtitle)
-| <img src="Images/image_5.jpeg" width="171" alt="image_5.jpeg"> | **Available on:** <br>[<img src="Images/OpenInFX.png" width="91" alt="OpenInFX.png">](https://www.mathworks.com/matlabcentral/fileexchange/106725-fourier-analysis?s_tid=srchtitle) <br>[<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fourier-Analysis&project=FourierAnalysis.prj) <br>[GitHub](https://github.com/MathWorks-Teaching-Resources/Fourier-Analysis)   |
+| <img src="Images/image_5.png" width="171" alt="image_5.png"> | **Available on:** <br>[<img src="Images/OpenInFX.png" width="91" alt="OpenInFX.png">](https://www.mathworks.com/matlabcentral/fileexchange/106725-fourier-analysis?s_tid=srchtitle) <br>[<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Fourier-Analysis&project=FourierAnalysis.prj) <br>[GitHub](https://github.com/MathWorks-Teaching-Resources/Fourier-Analysis)   |
 | :-- | :-- |
 
 <a name="H_24A492A6"></a>
