@@ -2,8 +2,8 @@
 % ---- Known Issues     -----
 KnownIssuesID = "";
 % ---- Pre-run commands -----
-plotPoles = @(x)avoidPlotPoles(x);
-function avoidPlotPoles(x)
-    disp("Do not run Plot Poles function.")
+set = @(x)avoidSet(x);
+function avoidSet(x)
+    disp("Do not set parameters.")
 end
  
