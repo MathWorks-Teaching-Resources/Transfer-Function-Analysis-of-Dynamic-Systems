@@ -2,8 +2,8 @@
 % ---- Known Issues     -----
 KnownIssuesID = "";
 % ---- Pre-run commands -----
-set = @(x)avoidSet(x);
-function avoidSet(x)
+set = @(varargin)avoidSet(varargin);
+function avoidSet(varargin)
     disp("Do not set parameters.")
 end
  
