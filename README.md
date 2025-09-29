@@ -53,28 +53,28 @@ Ensure you have all the required products (listed below) installed. If you need 
 # Scripts
 
 
-## [**ConceptReview.mlx**](./Scripts/ConceptReview.mlx)
+## [**ConceptReview.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/ConceptReview.mlx)
 |      |      |      |
 | :-- | :-- | :-- |
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | <img src="Images/image_3.gif" width="171" alt="image_3.gif"> <br>  | • Compute Laplace transforms by hand and using symbolic math <br> • Describe the properties of the Laplace transform <br> • Apply Laplace transforms to solve initial value problems <br> • Recall the definition of a linear time\-invariant (LTI) operator <br>  | • Mechanical Engineering <br> • Electrical Engineering <br> • Mathematics <br>   |
 |      |      |       |
 
-## [**TransferFunctionBasics.mlx**](./Scripts/TransferFunctionBasics.mlx)
+## [**TransferFunctionBasics.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/TransferFunctionBasics.mlx)
 |      |      |      |
 | :-- | :-- | :-- |
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | <img src="Images/image_4.png" width="171" alt="image_4.png"> <br>  | • Derive transfer functions by hand <br> • Derive transfer functions using symbolic math <br> • Numerically evaluate and plot the impulse, step, and forced responses of a system <br> • Analytically derive the step and forced responses of a system <br> • Explain the physical significance of time responses <br>  | • Mechanical Engineering <br> • Electrical Engineering <br> • Mathematics <br>   |
 |      |      |       |
 
-## [**PoleZeroAnalysis.mlx**](./Scripts/PoleZeroAnalysis.mlx)
+## [**PoleZeroAnalysis.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/PoleZeroAnalysis.mlx)
 |      |      |      |
 | :-- | :-- | :-- |
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | <img src="Images/image_5.png" width="171" alt="image_5.png"> <br>  | • Describe how the transfer function of a DC motor is derived <br> • Identify the poles and zeros of a transfer function <br> • Assess the stability of an LTI system based on the transfer function poles <br> • Relate the position of poles in the s\-plane to the damping and natural frequency of a system <br> • Explain how poles of a second\-order system relate to its dynamics <br> • Examine how transfer function zeros affect the dynamics of a system <br>  | • Mechanical Engineering <br> • Electrical Engineering <br> • Mathematics <br>   |
 |      |      |       |
 
-## [**FrequencyDomainAnalysis.mlx**](./Scripts/FrequencyDomainAnalysis.mlx)
+## [**FrequencyDomainAnalysis.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/FrequencyDomainAnalysis.mlx)
 |      |      |      |
 | :-- | :-- | :-- |
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
