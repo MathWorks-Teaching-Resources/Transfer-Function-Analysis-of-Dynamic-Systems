@@ -28,7 +28,7 @@ Contact the [MathWorks Educator Content Development Team](mailto:onlineteaching@
 
 ## Prerequisites
 
-This module assumes knowledge of algebra and differential equations. There is minimal MATLAB knowledge required for these scripts and app, but you could use [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) and [Introduction to Symbolic Math with MATLAB](https://matlabacademy.mathworks.com/details/introduction-to-symbolic-math-with-matlab/symbolic) as a resource to acquire familiarity with MATLAB syntax, live scripts, and apps.
+This module assumes knowledge of algebra and differential equations. There is minimal MATLAB knowledge required for these scripts and app, but you could use [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted) and [Symbolic Math Onramp](https://matlabacademy.mathworks.com/details/introduction-to-symbolic-math-with-matlab/symbolic) as a resource to acquire familiarity with MATLAB syntax, live scripts, and apps.
 
 
 ## Getting Started
