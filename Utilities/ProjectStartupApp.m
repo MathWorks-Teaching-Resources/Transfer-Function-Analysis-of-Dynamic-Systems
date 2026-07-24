@@ -52,7 +52,7 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             
             % Copy title and set cover image
             app.ProjectName = currentProject().Name;
-            app.WelcomeTitle.Text = "Welcome to " + app.ProjectName; 
+            app.WelcomeTitle.Text = app.ProjectName; 
             app.ReviewTitle.Text = app.WelcomeTitle.Text;
             app.CoverImage.ImageSource = app.ImagePath;
 
@@ -217,7 +217,7 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.WelcomeTitle.HorizontalAlignment = 'center';
             app.WelcomeTitle.VerticalAlignment = 'top';
             app.WelcomeTitle.WordWrap = 'on';
-            app.WelcomeTitle.FontSize = 24;
+            app.WelcomeTitle.FontSize = 21;
             app.WelcomeTitle.FontWeight = 'bold';
             app.WelcomeTitle.Layout.Row = 1;
             app.WelcomeTitle.Layout.Column = [1 3];
@@ -281,7 +281,7 @@ classdef ProjectStartupApp < matlab.apps.AppBase
             app.ReviewTitle.HorizontalAlignment = 'center';
             app.ReviewTitle.VerticalAlignment = 'top';
             app.ReviewTitle.WordWrap = 'on';
-            app.ReviewTitle.FontSize = 24;
+            app.ReviewTitle.FontSize = 21;
             app.ReviewTitle.FontWeight = 'bold';
             app.ReviewTitle.Layout.Row = 1;
             app.ReviewTitle.Layout.Column = [1 3];
