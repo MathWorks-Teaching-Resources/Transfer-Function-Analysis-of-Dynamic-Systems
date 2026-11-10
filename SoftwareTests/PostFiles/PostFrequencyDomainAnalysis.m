@@ -1,3 +1,3 @@
-%  Post-run script for FrequencyDomainAnalysis.mlx
+%  Post-run script for FrequencyDomainAnalysis.m
 % ---- Post-run commands -----
- 
+% <matlab:ShareFeedback Share your feedback>

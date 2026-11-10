@@ -2,13 +2,15 @@
 # <span style="color:rgb(213,80,0)">Transfer Function Analysis of Dynamic Systems</span>
 
 
-[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/94635-transfer-function-analysis-of-dynamic-systems) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=README.mlx)
+[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/94635-transfer-function-analysis-of-dynamic-systems) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=README.m)
 
 [![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https://mathworks-teaching-resources.github.io/Transfer-Function-Analysis-of-Dynamic-Systems/TestedWith.json)](https://MathWorks-Teaching-Resources.github.io/Transfer-Function-Analysis-of-Dynamic-Systems)
 
 **Curriculum Module**
 
-_Created with R2024b. Compatible with R2024b and later releases._
+_Compatible with MATLAB R2025a and later releases._
+
+MATLAB R2024b or older: download the [legacy MLX version](https://github.com/MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems/releases/tag/mlx).
 
 # Information
 
@@ -53,28 +55,28 @@ Ensure you have all the required products (listed below) installed. If you need 
 # Scripts
 
 
-## [**ConceptReview.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/ConceptReview.mlx)
+## [**ConceptReview.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/ConceptReview.m)
 |      |      |      |
 | :-- | :-- | :-- |
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | <img src="Images/image_3.gif" width="171" alt="image_3.gif"> <br>  | • Compute Laplace transforms by hand and using symbolic math <br> • Describe the properties of the Laplace transform <br> • Apply Laplace transforms to solve initial value problems <br> • Recall the definition of a linear time\-invariant (LTI) operator <br>  | • Mechanical Engineering <br> • Electrical Engineering <br> • Mathematics <br>   |
 |      |      |       |
 
-## [**TransferFunctionBasics.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/TransferFunctionBasics.mlx)
+## [**TransferFunctionBasics.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/TransferFunctionBasics.m)
 |      |      |      |
 | :-- | :-- | :-- |
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | <img src="Images/image_4.png" width="171" alt="image_4.png"> <br>  | • Derive transfer functions by hand <br> • Derive transfer functions using symbolic math <br> • Numerically evaluate and plot the impulse, step, and forced responses of a system <br> • Analytically derive the step and forced responses of a system <br> • Explain the physical significance of time responses <br>  | • Mechanical Engineering <br> • Electrical Engineering <br> • Mathematics <br>   |
 |      |      |       |
 
-## [**PoleZeroAnalysis.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/PoleZeroAnalysis.mlx)
+## [**PoleZeroAnalysis.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/PoleZeroAnalysis.m)
 |      |      |      |
 | :-- | :-- | :-- |
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
 | <img src="Images/image_5.png" width="171" alt="image_5.png"> <br>  | • Describe how the transfer function of a DC motor is derived <br> • Identify the poles and zeros of a transfer function <br> • Assess the stability of an LTI system based on the transfer function poles <br> • Relate the position of poles in the s\-plane to the damping and natural frequency of a system <br> • Explain how poles of a second\-order system relate to its dynamics <br> • Examine how transfer function zeros affect the dynamics of a system <br>  | • Mechanical Engineering <br> • Electrical Engineering <br> • Mathematics <br>   |
 |      |      |       |
 
-## [**FrequencyDomainAnalysis.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/FrequencyDomainAnalysis.mlx)
+## [**FrequencyDomainAnalysis.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems&project=TransferFunctions.prj&file=Scripts/FrequencyDomainAnalysis.m)
 |      |      |      |
 | :-- | :-- | :-- |
 |  | **In this script, students will...** <br>  | **Academic disciplines** <br>   |
@@ -111,6 +113,6 @@ Feel free to explore our other [modular courseware content](https://www.mathwork
 Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Transfer-Function-Analysis-of-Dynamic-Systems/blob/release/CONTRIBUTING.md) page on GitHub.
 
 
- *©* Copyright 2025 The MathWorks, Inc
+ *©* Copyright 2025-2026 The MathWorks, Inc
 
 
