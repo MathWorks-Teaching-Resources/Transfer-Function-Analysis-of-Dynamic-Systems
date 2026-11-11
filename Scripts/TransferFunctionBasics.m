@@ -306,6 +306,9 @@ end
 %[text] - Learn more about responses in the MATLAB Tech Talk: [Control Systems in Practice, Part 9: The Step Response](https://www.mathworks.com/videos/control-systems-in-practice-part-9-the-step-response-1593067191882.html).
 %[text] - Want a little more of the theory? Check out Brian Douglas' video: [Control Systems Lectures - Transfer Functions](https://www.youtube.com/watch?v=RJleGwXorUk). \
 %%
+%[text] ## Help us Improve
+%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
+%%
 %[text] ### **Helper functions**
 %[text] **Plots**
 function plotResponse(t,u,x)
@@ -461,9 +464,6 @@ function checkAnalyticStep(userSubmission)
     x = ilaplace(X);
     isEqualCheck(x,userSubmission);
 end
-%%
-%[text] ## Help us Improve
-%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
 
 %[appendix]{"version":"1.0"}
 %---

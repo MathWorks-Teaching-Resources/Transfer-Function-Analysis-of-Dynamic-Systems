@@ -166,7 +166,7 @@ G = tf([0 0 60],[1 2.3 11])
 %[text] For simplicity, consider $\\zeta \\in \[0,1)${"altText":"\zeta \in \[0,1)"}. In this case, the poles are
 %[text]  $p = - \\zeta \\omega\_n \\pm i \\omega\_n \\sqrt{1 - \\zeta^2}${"altText":"p = - \zeta \omega\_n \pm i \omega\_n \sqrt{1 - \zeta^2}"}
 %[text] As stated above, the natural frequency is defined as the magnitude of the pole. The magnitude is computed as $\\sqrt{ Re^2 + Im^2}${"altText":"\sqrt{ Re^2 + Im^2}"}:
-%[text]  $\\begin{array}{rl} |p|\n &= \\sqrt{ (-\\zeta \\omega\_n)^2 + ( \\pm \\omega\_n \\sqrt{1-\\zeta^2})^2 } \\\\ \n &= \\sqrt{ \\zeta^2 \\omega\_n^2 + \\omega\_n^2 (1-\\zeta^2) } \\\\ \n &= |\\omega\_n|\\ \n\\end{array}${"altText":"\begin{array}{rl} |p|  &= \sqrt{ (-\zeta \omega\_n)^2 + ( \pm \omega\_n \sqrt{1-\zeta^2})^2 } \   &= \sqrt{ \zeta^2 \omega\_n^2 + \omega\_n^2 (1-\zeta^2) } \   &= |\omega\_n|  \end{array}"}
+%[text]  $\\begin{array}{rl} |p|\n &= \\sqrt{ (-\\zeta \\omega\_n)^2 + ( \\pm \\omega\_n \\sqrt{1-\\zeta^2})^2 } \\\\ \n &= \\sqrt{ \\zeta^2 \\omega\_n^2 + \\omega\_n^2 (1-\\zeta^2) } \\\\ \n &= |\\omega\_n|\\ \n\\end{array}${"altText":"\begin{array}{rl} |p|  &= \sqrt{ (-\zeta \omega\_n)^2 + ( \pm \omega\_n \sqrt{1-\zeta^2})^2 }    &= \sqrt{ \zeta^2 \omega\_n^2 + \omega\_n^2 (1-\zeta^2) }    &= |\omega\_n|  \end{array}"}
 %[text] This illustrates why this form of the equation is used: the natural frequency is the parameter $\\omega\_n${"altText":"\omega\_n"}. 
 %[text] The damping ratio $\\zeta${"altText":"\zeta"} determines the relative strength of the exponential part of the response. As $\\zeta \\rightarrow 1${"altText":"\zeta \rightarrow 1"}, the complex part of the pole tends to zero, implying less oscillatory and stronger exponential behavior. For stable systems, that implies greater damping. The gain coefficient $K${"altText":"K"} affects the magnitude of the response, not the time-dependent behavior.
 %[text] **Natural response**
@@ -294,6 +294,9 @@ tlim = NaN
 %%
 %[text] ![compass\_edit.png](text:image:5e71)**Further exploration**
 %[text] - You can interactively explore transfer functions, their poles, time-domain response, and more using the [Control System Designer](https://www.mathworks.com/help/control/ref/controlsystemdesigner-app.html) app. \
+%%
+%[text] ## Help us Improve
+%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
 %%
 %[text] ### **Helper functions**
 %[text] **Plots**
@@ -531,9 +534,6 @@ end
 % Suppress unused suggestions
 %#ok<*UNRCH> 
 %#ok<*NODEF>
-%%
-%[text] ## Help us Improve
-%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
 
 %[appendix]{"version":"1.0"}
 %---

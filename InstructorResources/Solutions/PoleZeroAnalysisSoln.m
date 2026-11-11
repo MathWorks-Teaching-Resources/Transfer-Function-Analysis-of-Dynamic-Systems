@@ -299,6 +299,9 @@ tlim = -z_0/2
 %[text] ![compass\_edit.png](text:image:114b)**Further exploration**
 %[text] - You can interactively explore transfer functions, their poles, time-domain response, and more using the [Control System Designer](https://www.mathworks.com/help/control/ref/controlsystemdesigner-app.html) app. \
 %%
+%[text] ## Help us Improve
+%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
+%%
 %[text] ### **Helper functions**
 %[text] **Plots**
 function plotPoleVariation(variation,maxValue)
@@ -535,9 +538,6 @@ end
 % Suppress unused suggestions
 %#ok<*UNRCH> 
 %#ok<*NODEF>
-%%
-%[text] ## Help us Improve
-%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
 
 %[appendix]{"version":"1.0"}
 %---

@@ -230,6 +230,9 @@ plotAddition(u1,u2,operator)
 %[text] - $i: \\ y(t) = \\int\_{t - 1}^{t + 1} 3u(\\tau) d\\tau${"altText":"i:  y(t) = \int\_{t - 1}^{t + 1} 3u(\tau) d\tau"}
 %[text] - $j${"altText":"j"}: $y(t) = t \\frac{d}{dt} u(t)${"altText":"y(t) = t \frac{d}{dt} u(t)"} \
 %%
+%[text] ## Help us Improve
+%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
+%%
 %[text] ### **Helper functions**
 %[text] **Plots**
 function generateSinglePlot(f,anum,bnum,trange,srange)
@@ -622,9 +625,6 @@ end
 
 % Suppress unused suggestions
 %#ok<*NASGU>
-%%
-%[text] ## Help us Improve
-%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
 
 %[appendix]{"version":"1.0"}
 %---

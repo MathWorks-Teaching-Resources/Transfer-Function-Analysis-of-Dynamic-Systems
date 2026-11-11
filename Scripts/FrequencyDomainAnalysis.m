@@ -309,6 +309,9 @@ figure("Position",[1 1 1200 400])
 %[text] - Continue exploring Bode plots in Brian Douglas' videos: [Bode Plots, Introduction](https://www.youtube.com/watch?v=_eh1conN6YM&t=2s) and [Bode Plots by Hand: Real Constants](https://www.youtube.com/watch?v=CSAp9ooQRT0).
 %[text] - You can also use transfer functions in Simulink models. Check out [this documentation page](https://www.mathworks.com/help/simulink/slref/transferfcn.html) to learn how. \
 %%
+%[text] ## Help us Improve
+%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
+%%
 %[text] ### **Helper functions**
 %[text] **Math functions**
 function u = switchedInput(t,f,d,M)
@@ -493,9 +496,6 @@ function check12(in)
     answer = wn/(2*pi);
     isEqualCheck(in,answer)
 end
-%%
-%[text] ## Help us Improve
-%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
 
 %[appendix]{"version":"1.0"}
 %---

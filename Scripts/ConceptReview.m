@@ -63,9 +63,9 @@ generateSinglePlot(f,anum,bnum,trange,srange); % This local function generates t
 %%
 %[text] %[text:anchor:H_53441522] ### Laplace transform properties
 %[text] Laplace transforms have several important properties that can be derived from the definition. A few essential properties are reviewed below.
-%[text]  $\\left.\n\\begin{array}{lll}\n\\textbf{Name} & \\mathbf{f(t)} & \\mathbf{F(s)}\n\\\\\n\\text{Time derivative} \\quad& \\dot{f}(t) \\quad & sF(s) - f(0)\n\\\\\n\\text{Time integral} \\quad& \\int\_0^t f(\\tau) d\\tau \\quad & \\frac{F(s)}{s}\n\\\\\n\\text{Frequency shift} \\quad& e^{at} f(t) \\quad & F(s-a)\n\\\\\n\\text{Time shift} \\quad& f(t-a)H(t-a) \\quad & e^{-as} F(s)\n\\\\\n\\text{Time scaling} \\quad& f(at) \\quad & \\frac{1}{a}F\\left( \\frac{s}{a}\\right)\n\\\\\n\\text{Time domain convolution} \\quad &  (f\*g)(t) & F(s) G(s)\n\\end{array}\n\\right.\n${"altText":"\left. \begin{array}{lll} \textbf{Name} & \mathbf{f(t)} & \mathbf{F(s)} \ \text{Time derivative} \quad& \dot{f}(t) \quad & sF(s) - f(0) \ \text{Time integral} \quad& \int\_0^t f(\tau) d\tau \quad & \frac{F(s)}{s} \ \text{Frequency shift} \quad& e^{at} f(t) \quad & F(s-a) \ \text{Time shift} \quad& f(t-a)H(t-a) \quad & e^{-as} F(s) \ \text{Time scaling} \quad& f(at) \quad & \frac{1}{a}F\left( \frac{s}{a}\right) \ \text{Time domain convolution} \quad &  (f\*g)(t) & F(s) G(s) \end{array} \right. "}
+%[text]  $\\left.\n\\begin{array}{lll}\n\\textbf{Name} & \\mathbf{f(t)} & \\mathbf{F(s)}\n\\\\\n\\text{Time derivative} \\quad& \\dot{f}(t) \\quad & sF(s) - f(0)\n\\\\\n\\text{Time integral} \\quad& \\int\_0^t f(\\tau) d\\tau \\quad & \\frac{F(s)}{s}\n\\\\\n\\text{Frequency shift} \\quad& e^{at} f(t) \\quad & F(s-a)\n\\\\\n\\text{Time shift} \\quad& f(t-a)H(t-a) \\quad & e^{-as} F(s)\n\\\\\n\\text{Time scaling} \\quad& f(at) \\quad & \\frac{1}{a}F\\left( \\frac{s}{a}\\right)\n\\\\\n\\text{Time domain convolution} \\quad &  (f\*g)(t) & F(s) G(s)\n\\end{array}\n\\right.\n${"altText":"\left. \begin{array}{lll} \textbf{Name} & \mathbf{f(t)} & \mathbf{F(s)}  \text{Time derivative} \quad& \dot{f}(t) \quad & sF(s) - f(0)  \text{Time integral} \quad& \int\_0^t f(\tau) d\tau \quad & \frac{F(s)}{s}  \text{Frequency shift} \quad& e^{at} f(t) \quad & F(s-a)  \text{Time shift} \quad& f(t-a)H(t-a) \quad & e^{-as} F(s)  \text{Time scaling} \quad& f(at) \quad & \frac{1}{a}F\left( \frac{s}{a}\right)  \text{Time domain convolution} \quad &  (f\*g)(t) & F(s) G(s) \end{array} \right. "}
 %[text] For example, the Laplace transform of a time derivative can be computed through integration by parts:
-%[text]  $\\begin{array}{rl}\n\\mathcal{L}\\{f'(t)\\} &= \\int\_{0}^{\\infty}  \\dot{f}(t) e^{-st} \\ dt\n\\\\\n&= \\left. f(t) e^{-st} \\ \\right\\vert\_0^\\infty - \\int\_{0}^{\\infty}  f(t) \\left( -s  e^{-st}) \\ dt\n\\\\\n&= - f(0) + sF(s)\n\\end{array}${"altText":"\begin{array}{rl} \mathcal{L}{f'(t)} &= \int\_{0}^{\infty}  \dot{f}(t) e^{-st}  dt \ &= \left. f(t) e^{-st}  \right\vert\_0^\infty - \int\_{0}^{\infty}  f(t) \left( -s  e^{-st})  dt \ &= - f(0) + sF(s) \end{array}"}
+%[text]  $\\begin{array}{rl}\n\\mathcal{L}\\{f'(t)\\} &= \\int\_{0}^{\\infty}  \\dot{f}(t) e^{-st} \\ dt\n\\\\\n&= \\left. f(t) e^{-st} \\ \\right\\vert\_0^\\infty - \\int\_{0}^{\\infty}  f(t) \\left( -s  e^{-st}) \\ dt\n\\\\\n&= - f(0) + sF(s)\n\\end{array}${"altText":"\begin{array}{rl} \mathcal{L}{f'(t)} &= \int\_{0}^{\infty}  \dot{f}(t) e^{-st}  dt  &= \left. f(t) e^{-st}  \right\vert\_0^\infty - \int\_{0}^{\infty}  f(t) \left( -s  e^{-st})  dt  &= - f(0) + sF(s) \end{array}"}
 %[text] ![interact.png](text:image:2705) **Try.** The symbolic derivative of $f${"altText":"f"} is defined below by declaring a [symbolic function](https://www.mathworks.com/help/symbolic/create-symbolic-functions.html) using the syntax 
 %[text] ```matlabCodeExample
 %[text] syms f(t)
@@ -133,7 +133,7 @@ Xdecomp = partfrac(X,s)
 %[text] You can take the inverse Laplace transform by rewriting $X${"altText":"X"} as a sum of terms in forms found on a [transform table](https://en.wikipedia.org/wiki/List_of_Laplace_transforms#Table).
 %[text] $X(s) = \\frac{1}{s}-\\frac{s+2}{s^2 +2 \\ s+10} =  \\frac{1}{s}-\\frac{s+2}{(s + 1)^2 + 9}  =  \\frac{1}{s}-\\frac{s+1}{(s + 1)^2 + 3^2}  -\\frac{1}{3}\\frac{3}{(s + 1)^2 + 3^2}${"altText":"X(s) = \frac{1}{s}-\frac{s+2}{s^2 +2  s+10} =  \frac{1}{s}-\frac{s+2}{(s + 1)^2 + 9}  =  \frac{1}{s}-\frac{s+1}{(s + 1)^2 + 3^2}  -\frac{1}{3}\frac{3}{(s + 1)^2 + 3^2}"}
 %[text] The solution is then constructed by taking the inverse transform:
-%[text] $\\begin{array}{rl}\nx(t) &= \\mathcal{L}^{-1} \\left\\{ \\frac{1}{s}-\\frac{s+1}{(s + 1)^2 + 3^2}  -\\frac{1}{3}\\frac{3}{(s + 1)^2 + 3^2} \\right\\}\n\\\\\n  &= H(t) - H(t) e^{-t} \\cos( 3 t) - \\frac{1}{3} H(t) e^{-t} \\sin(3t)\n\\\\\n  &= H(t)( 1  - e^{-t} \\cos( 3 t) - \\frac{1}{3} e^{-t} \\sin(3t))\n\\end{array}${"altText":"\begin{array}{rl} x(t) &= \mathcal{L}^{-1} \left{ \frac{1}{s}-\frac{s+1}{(s + 1)^2 + 3^2}  -\frac{1}{3}\frac{3}{(s + 1)^2 + 3^2} \right} \   &= H(t) - H(t) e^{-t} \cos( 3 t) - \frac{1}{3} H(t) e^{-t} \sin(3t) \   &= H(t)( 1  - e^{-t} \cos( 3 t) - \frac{1}{3} e^{-t} \sin(3t)) \end{array}"}
+%[text] $\\begin{array}{rl}\nx(t) &= \\mathcal{L}^{-1} \\left\\{ \\frac{1}{s}-\\frac{s+1}{(s + 1)^2 + 3^2}  -\\frac{1}{3}\\frac{3}{(s + 1)^2 + 3^2} \\right\\}\n\\\\\n  &= H(t) - H(t) e^{-t} \\cos( 3 t) - \\frac{1}{3} H(t) e^{-t} \\sin(3t)\n\\\\\n  &= H(t)( 1  - e^{-t} \\cos( 3 t) - \\frac{1}{3} e^{-t} \\sin(3t))\n\\end{array}${"altText":"\begin{array}{rl} x(t) &= \mathcal{L}^{-1} \left{ \frac{1}{s}-\frac{s+1}{(s + 1)^2 + 3^2}  -\frac{1}{3}\frac{3}{(s + 1)^2 + 3^2} \right}    &= H(t) - H(t) e^{-t} \cos( 3 t) - \frac{1}{3} H(t) e^{-t} \sin(3t)    &= H(t)( 1  - e^{-t} \cos( 3 t) - \frac{1}{3} e^{-t} \sin(3t)) \end{array}"}
 %[text] Alternatively, you can use the symbolic function [`ilaplace`](https://www.mathworks.com/help/symbolic/sym.ilaplace.html) to find the inverse Laplace transform of $X(s)${"altText":"X(s)"}.
 syms x
 x = ilaplace(X) % The inverse Laplace transform of X(s)
@@ -218,6 +218,9 @@ plotAddition(u1,u2,operator)
 %[text] - $h${"altText":"h"}: $y(t) = 4 \\sin^2\[u(t)\]${"altText":"y(t) = 4 \sin^2\[u(t)\]"}
 %[text] - $i: \\ y(t) = \\int\_{t - 1}^{t + 1} 3u(\\tau) d\\tau${"altText":"i:  y(t) = \int\_{t - 1}^{t + 1} 3u(\tau) d\tau"}
 %[text] - $j${"altText":"j"}: $y(t) = t \\frac{d}{dt} u(t)${"altText":"y(t) = t \frac{d}{dt} u(t)"} \
+%%
+%[text] ## Help us Improve
+%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
 %%
 %[text] ### **Helper functions**
 %[text] **Plots**
@@ -611,14 +614,11 @@ end
 
 % Suppress unused suggestions
 %#ok<*NASGU>
-%%
-%[text] ## Help us Improve
-%[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
 
 %[appendix]{"version":"1.0"}
 %---
 %[metadata:view]
-%   data: {"layout":"inline","rightPanelPercent":40}
+%   data: {"layout":"hidecode","rightPanelPercent":40}
 %---
 %[text:image:3f9f]
 %   data: {"align":"baseline","height":20,"src":"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAxCAYAAAB6d+FmAAAC0ElEQVR42u2aO4gTURSGs6Lugo1WW2ghgiyCr1VWbRSR9YEgKoKohcQmEDAviYhBIaVbbKEWYi22YidoobUItoqwjSui6wt119Wsj+\/onXAcJslMZpI7AxP4Sbh37pnz3TP3zJ2TyWQS9imVStvRK1G5XL5ZqVRWZpL8MUCf0G+lz+hYIoGIyDYPIEc\/i8ViLmkRGkMfWwA5WkD7EwHEutmCs+87ADl6zfHLm4MLhcIqGs7RcV0WoA1xCa3vIkL\/CTsX\/w7G2Bka5oIMjlo4M6GBmOTRABHSeirh3S0LzSYQugHHgAPEJG+l7UOXtr6LgQeqYQZdRVf6Jc5frdfriyKIkOgHQToi1+0XpxGD+ywnhc348a5bICboqLMYmx02784hgRYAOqEzjHWoSIHiABU5kG2osECMP9lqC2IFiqS0qSdAtqAM0Ey3QOhUp81iX6F6DtRvKM6xsedA\/YQKCdQgyx0PcrKeQ4WNkE4K+LhGb6usQOHQOnnOCb31+WdrNW1TQC22BoW9Ddh9i6bRfNDdNkCH1c59LW0vpc8qFDYfo\/tkvMFqtbqM3xdkffgAmseXQ44dM3ba6bcGlc1mh9yzbaK3k\/Y37YAYc9Dl47A+xhoU0dlh7A579I3qRx6lbwAd8PAxHlA4V5BF3ea8Z11Ac62e52IDhb1bZuZL+lFdRWtQpflZzj3exlZsIvVc2b7jdW8xiWSWVL2ng4\/2ofL5\/Ars\/XJdXudN9wC\/R4Ce5PurFH58RN0+FLb2et130D1VVJlCu3zasw9FFC67dwboialUnZadQcBJsg+F09ewd9tkwLFcLrckZOTjkSgi3pmkUClUCpVCpVApVAqVQqVQ0UDp6s5IHKFMeaz5doufYuYz9bf\/XXmXQaqgcZH4I34pqBd+Qluz\/LpBUF3qCEUol3LgwyQAEbFHUrDxW6OTyk7NFEsaMYNpGL9qfoH+AOOEPfJuI6OmAAAAAElFTkSuQmCC","width":22}

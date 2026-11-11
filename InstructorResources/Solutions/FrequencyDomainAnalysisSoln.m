@@ -1,5 +1,5 @@
 %[text] %[text:anchor:T_AC671245] # Frequency Domain Analysis
-%[text:tableOfContents]{"heading":"**Table of Contents**"}
+%[text:tableOfContents]{"heading":"Table of Contents"}
 %[text] ![1601576787454.png](text:image:3142) This live script is intended to be used with the code shown. Select the `VIEW` tab and switch to `Output Inline`.
 %%
 %[text] %[text:anchor:H_E1F1FC65] ## Frequency response of a transfer function
@@ -51,7 +51,7 @@ fh = figure("Position",[1 1 1500 700]); % Create figure with handle fh
   %[control:button:0145]{"position":[1,2]}
 %%
 %[text] **Part 2.**
-%[text] 1. Set a frequency `omegau` for the input sine wave. 
+%[text] 1. Set a frequency `omegau` for the input sine wave.
 %[text] 2. Observe the phase and magnitude of the steady response. Observe that the phase and magnitude are automatically added as a new point on the Bode diagram.
 %[text] 3. Repeat until the Bode diagram figure is populated. \
 omegau = 4.3; % Input frequency in rads/second %[control:slider:2aad]{"position":[10,13]}
@@ -311,11 +311,11 @@ ylabel("v [V]")
 %[text] - Continue exploring Bode plots in Brian Douglas' videos: [Bode Plots, Introduction](https://www.youtube.com/watch?v=_eh1conN6YM&t=2s) and [Bode Plots by Hand: Real Constants](https://www.youtube.com/watch?v=CSAp9ooQRT0).
 %[text] - You can also use transfer functions in Simulink models. Check out [this documentation page](https://www.mathworks.com/help/simulink/slref/transferfcn.html) to learn how. \
 %%
-%[text] **Helper functions**
-%[text] **Math functions**
-%%
 %[text] ## Help us Improve
 %[text] [Share your feedback](<matlab: ShareFeedback>) to help us improve this module.
+%%
+%[text] ### **Helper functions**
+%[text] **Math functions**
 function u = switchedInput(t,f,d,M)
     % Generates a shifted square wave with a magnitude specified by M, 
     % a duty cycle d, and frequency f
@@ -359,7 +359,6 @@ function createBodePlot(fh,omegau,G)
     ylabel("x [m]")
     title("Time domain response with \omega_u = " + num2str(omegau))
     legend("$u(t)$","$y(t)$","Interpreter","Latex")
- 
     
     subplot(2,4,5:6)
     plot(t2,u2,"color",colors(2,:))
@@ -463,7 +462,7 @@ end
 function check8(in)
     syms L R s
     answer = 1/(L*s + R);
-    isEqualCheck(simplify(in),simplify(answer))
+    isEqualCheck(simplify(sym(in)),simplify(answer))
 end
 
 function check9(in)
@@ -499,8 +498,6 @@ function check12(in)
     answer = wn/(2*pi);
     isEqualCheck(in,answer)
 end
-%[text] 
-%[text]
 
 %[appendix]{"version":"1.0"}
 %---
